@@ -6,7 +6,7 @@ app.get("/greeting", (req, res) => {
 });
 
 app.get("/:name", (req, res) => {
-  res.send(`Christopher! It's so great to see you! ${req.params.name}`);
+  res.send(`greeting ${req.params.name}`);
 });
 
 app.listen(3001, () => {
