@@ -39,15 +39,8 @@ app.get("/magic/:question/", (req, res) => {
     "Very doubtful",
   ];
   questions = questions[Math.floor(Math.random() * questions.length)];
-  // randomAnswer = req.params.question;
   res.send(`Will I Be A Millionaire? ${questions}`);
 });
-
-//add show route
-//   app.get('/answers/:randomAnswer')
-
-//   res.send(millionaire);
-// });
 
 // app.listen(3001, () => {
 //   console.log("Nice!");

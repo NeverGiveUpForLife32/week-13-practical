@@ -1,0 +1,32 @@
+//import express through require
+
+//call express and return it to the variable of the app object
+
+//create a get route for "/" that displays "99 Bottles of beer on the wall"
+
+//create a public folder that contains an HTML, cssm and Javascript file that has a click event listener
+
+//Inside the html file, add an href link that says "take one down, pass it around"
+
+//after caching the element, assign it to a variable
+
+//In CSS, use the link selector. For ex: a:link to select unvisited links.
+//use the visited selector to change the color when link clicked on
+//In CSS, add hover to the element for the href and make it a pointer
+
+//add an event listener for click
+//create a, a tag for href that contains emtpy quotes within the href and "take on down, pass it around"
+//ex: a href="">take on down, pass it around</a>
+//use static method to pull both files.
+
+// create a path variable to the imported path
+//for ex: const path = require('path')
+
+//Use the middleware. Use the use and static method to pull the entire public folder
+//for ex: app.use(express.static('public'))
+
+//create a redirect for "/" whenever the link reaches 0
+//redirect ex:
+//app.get('/', (req, res) => {
+//     res.redirect('/about-me')
+// })
